@@ -1,7 +1,18 @@
 
+html {
+    margin: 0;
+    background-color: white;
+    z-index: -1;
+
+}
+
 body {
     margin: 0;
     padding: 0;
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+    
 }
 
 .title {
@@ -21,16 +32,17 @@ nav {
     justify-content: center;
     text-align: center;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    letter-spacing: .2rem;
     font-size: 30px;
     width: 100%;
     margin: 0;
-    background-color: lightgray;
+    background-color: rgb(236, 235, 235);
 
 }
 nav li {
     display: inline-block;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-right: 2rem;
     text-decoration-line: none;
 }
@@ -42,67 +54,60 @@ nav ul {
     list-style-type: none;
     margin-right: 2rem;
 }
-/*
-nav p {
-    justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-    */
 
-/*
-#home {
+
+.content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding:  1rem 20rem;
+
 }
 
-#about {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-#contact {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-#projects {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-*/
-
-div {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
 
 #home, #about, #contact, #projects {
     display: none;
+    margin: .5rem;
+    border-left: solid .3rem;
+    border-bottom: solid .3rem;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: rgb(236, 235, 235);
+
+}
+div h2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    
+}
+div p {
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    
 }
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(236, 235, 235);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0rem;
+    float: bottom;
+    font-family: sans-serif;
+    padding: 0rem 3rem;
+}
 
 

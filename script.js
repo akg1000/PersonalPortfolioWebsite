@@ -1,6 +1,18 @@
 //this is the scirpt file for the personal website
 
 
+function getRandomColorWithOpacity(opacity) {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+}
+
+document.addEventListener('click', function() {
+    const opacity = 0.2; // Set your desired opacity here (0.0 to 1.0)
+    document.body.style.backgroundColor = getRandomColorWithOpacity(opacity);
+});
+
 const toggleHome = document.getElementById('homelink');
 const toggleAbout = document.getElementById('aboutlink');
 const toggleContact = document.getElementById('contactlink');
