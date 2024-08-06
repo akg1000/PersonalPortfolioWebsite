@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+header p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    margin: 0;
+    background-color: lightgray;
+
+}
+nav li {
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 2rem;
+    text-decoration-line: none;
+}
+nav li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+/*
+nav p {
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+    */
+
+/*
+#home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+*/
+
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#home, #about, #contact, #projects {
+    display: none;
+}
+
+
+
+
